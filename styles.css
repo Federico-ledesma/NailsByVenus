@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    background-color: #222;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+div,body,img{
+    box-sizing: border-box;
+}
+
+.fondo{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    opacity: 80%;
+}
+
+.nav__container{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    align-items: center;
+}
+
+.nav__logo{
+    margin-right: 1350px;
+    font-family: 'Montez';
+    font-size: 30px;
+}
+
+.title{
+    position: relative;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    font-family: 'Montez';
+}
+
+
+
+/*Media queries*/
+
+/*pantalla completa*/
+@media screen and (min-width: 1600px){
+    .link{
+        color: #fff;
+        text-decoration: none;
+        margin-right: 20px;
+        font-size: 20px;
+        transition: font-size 0.3s;
+    }
+
+    .link:hover{
+        text-decoration: underline;
+        font-size: 30px;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+}
+
+
+/*celular*/
+@media screen and (max-width: 600px){
+    
+    body{
+        overflow-x: hidden;
+    }
+
+    /*nav*/
+
+    .nav__container{
+        margin-top: 10px;
+    }
+
+    .nav__logo{
+        margin: auto;
+        font-size: 20px;
+        margin-left: 25px;
+    }
+    
+    .link{
+        color: #fff;
+        text-decoration: none;
+        margin-right: 20px;
+        font-size: 15px;
+    }
+
+
+    /*titile section*/
+
+    .title{
+        font-size: 40px;
+    }
+
+    .fondo{
+        width: 100%;
+    }
+}
+
+/*Tablet*/
+@media screen and (min-width: 600px){
+    .link{
+        color: #fff;
+        text-decoration: none;
+        margin-right: 20px;
+        font-size: 15px;
+    }
+
+    .nav__container{
+        margin-top: 10px;
+    }
+
+    .nav__logo{
+        margin: auto;
+        font-size: 20px;
+        margin-left: 25px;
+    }
+}
