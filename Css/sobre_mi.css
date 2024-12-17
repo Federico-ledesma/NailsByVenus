@@ -1,0 +1,65 @@
+/*Sobre Mi section*/
+
+.title__2{
+    font-family: 'Montez';
+    font-size: 90px;
+    text-align: center;
+    position: relative;
+}
+
+.fondo_2{
+    width: 100vw;
+    height: 100vh;
+    opacity: 10%;
+    position: absolute;
+    margin-top: 250px;
+}
+
+.box__diploma{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.box__hola{
+    margin-bottom: 20px;
+}
+
+
+/*pantalla completa*/
+@media screen and (min-width: 1600px){
+    
+    .fondo_2{
+        margin-top: 150px;
+    }
+
+    .box__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box__diploma{
+        width: 50vw;
+    }
+
+    .box__hola{
+        margin-bottom: 20px;
+        width: 50%;
+    }
+    
+    .box__chau{
+        width: 50%;
+    }
+    
+}
+
+@media screen and (min-width: 600px){
+    
+    body{
+        overflow-x: hidden;
+    }
+
+    .fondo_2{
+        margin-top: 100px;
+    }
+}
