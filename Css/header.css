@@ -131,9 +131,10 @@ div,body,img{
 
     .wsp{
         height: 30px;
-        z-index: 10;
-        margin-top: 12px;
+        margin-top: 30px;
         margin-left: 20px;
+        background-color: #0f03;
+        border-radius: 22px;
     }
 }
 
